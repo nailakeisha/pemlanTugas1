@@ -34,8 +34,5 @@ public class MainMobil {
         // Menampilkan informasi lengkap
         System.out.println("\n===== INFORMASI MOBIL =====");
         m1.displayMessage(); // Memanggil method untuk menampilkan seluruh informasi mobil
-
-        // Menutup Scanner untuk menghindari kebocoran resource
-        sc.close();
     }
 }
